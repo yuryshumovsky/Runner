@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af960af660a1492188ece01bfc8f88e7, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  loadingScreenPrefab: {fileID: 429834345850178726, guid: eadffeeac84aa3e4bb2f133bcdd413c0, type: 3}
+  GameSceneName: Gameplay
+  levelPlatforms:
+  - platformView:
+      m_AssetGUID: db8ce33763e834d5abda26bf7f680699
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  characterAsset:
+    m_AssetGUID: 4d365a4d9990644c4b7e4eddc2c2d168
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  lifesAtStart: 3
+  levelObjects:
+  - ID: coin1_fly
+    levelAssetConfig: {fileID: 11400000, guid: 3fc57fcdf458248cc8e501be9a1e1d87, type: 2}
+    Color: {r: 0.6509434, g: 0.08290317, b: 0.5788267, a: 0}
+    takeActivities:
+    - {fileID: 11400000, guid: 68b332b5c386947bcb320d13390370f5, type: 2}
+    - {fileID: 11400000, guid: dc7bc707004104fc190103a49f3b6906, type: 2}
+    - {fileID: 11400000, guid: 9b6a025bc27fc415784bccc7824310ae, type: 2}
+  - ID: coin2
+    levelAssetConfig: {fileID: 11400000, guid: 3fc57fcdf458248cc8e501be9a1e1d87, type: 2}
+    Color: {r: 0.735849, g: 0.024296915, b: 0.060990255, a: 0}
+    takeActivities:
+    - {fileID: 11400000, guid: 5238c6b7aaa254826925dfa3fcf67244, type: 2}
+    - {fileID: 11400000, guid: dc7bc707004104fc190103a49f3b6906, type: 2}
+    - {fileID: 11400000, guid: e2c4a3264d3a64e49b28563014bbdef2, type: 2}
+  - ID: speed_up_coin
+    levelAssetConfig: {fileID: 11400000, guid: 3fc57fcdf458248cc8e501be9a1e1d87, type: 2}
+    Color: {r: 0.20218013, g: 0.7529412, b: 0.047058824, a: 0}
+    takeActivities:
+    - {fileID: 11400000, guid: 065e5bbf7f6a34022a9ba2eb1c92d130, type: 2}
+    - {fileID: 11400000, guid: dc7bc707004104fc190103a49f3b6906, type: 2}
+    - {fileID: 11400000, guid: 1ca61723531b04b2daa6d627080d9690, type: 2}

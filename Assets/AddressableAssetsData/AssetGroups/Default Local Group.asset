@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 76e1f4c3a67c94dfc89e389191826e43
+  m_SerializeEntries:
+  - m_GUID: 4d365a4d9990644c4b7e4eddc2c2d168
+    m_Address: Character
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db8ce33763e834d5abda26bf7f680699
+    m_Address: Assets/Runner/Prefabs/Platform1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b93acdc3f640e425eb63b703acd1d934
+    m_Address: Assets/Runner/Prefabs/GameObjects/Coin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0898b572f28fb32439fbe4be9a9beb52
+    m_Address: Assets/EffectFX/Prefabs/Boom.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1810168468ffe7b4db7f3c67e0743de4
+    m_Address: Assets/EffectFX/Prefabs/Hit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3b8f9b5600cc40418354354f2b8f177
+    m_Address: Assets/EffectFX/Prefabs/Omg.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d62916c82271c4b44a57da7ad350dda4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c7d4af5d210aa465ea50b5e6324b90c9, type: 2}
+    - {fileID: 11400000, guid: 0a3577c0a5e354cc89c266bc62f3c85b, type: 2}
